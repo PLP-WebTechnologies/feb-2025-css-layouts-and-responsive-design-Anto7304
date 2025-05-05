@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout Demo</title>
+    <link rel="stylesheet" href="formatting.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">MySite</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>Welcome to my Website</h1>
+            <p>Discover amazing features and services</p>
+            <button class="cta-button">Learn More</button>
+        </section>
+
+        <section class="features">
+            <article class="feature-card">
+                <h2>Feature One</h2>
+                <p>Aiming at high to come with a better website to solve all more problems on the earth.</p>
+            </article>
+            <article class="feature-card">
+                <h2>Feature Two</h2>
+                <p>responsive website</p>
+            </article>
+            <article class="feature-card">
+                <h2>Feature Three</h2>
+                <p>easy to use website and friendly</p>
+            </article>
+        </section>
+
+        <section class="gallery">
+            <h2 class="section-title">Our Gallery</h2>
+            <div class="grid-container">
+                <div class="grid-item tall" style="background-image: url('https://picsum.photos/300/400')"></div>
+                <div class="grid-item" style="background-image: url('https://picsum.photos/300/300')"></div>
+                <div class="grid-item" style="background-image: url('https://picsum.photos/300/300')"></div>
+                <div class="grid-item wide" style="background-image: url('https://picsum.photos/600/300')"></div>
+                <div class="grid-item" style="background-image: url('https://picsum.photos/300/300')"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We create amazing websites with responsive design.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>email@example.com</p>
+                <p>(123) 456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 MySite. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
